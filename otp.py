@@ -5,8 +5,8 @@ import random
 app = Flask(__name__)
 
 account_sid = 'AC71fdcf45d0d9916e5b292cd57c228464'
-auth_token = '79611657109a50daa067a1833344d9bd'
-twilio_phone_number = '8279823312'
+auth_token = 'your token no.'
+twilio_phone_number = 'phone no.'
 client = Client(account_sid, auth_token)
 
 # Store generated OTPs and associated phone numbers
