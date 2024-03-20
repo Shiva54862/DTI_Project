@@ -4,7 +4,7 @@ import random
 
 app = Flask(__name__)
 
-account_sid = 'AC71fdcf45d0d9916e5b292cd57c228464'
+account_sid = 'your id'
 auth_token = 'your token no.'
 twilio_phone_number = 'phone no.'
 client = Client(account_sid, auth_token)
