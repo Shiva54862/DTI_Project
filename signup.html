@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <style>
+        *{
+            background-image: url('t2.jpg');
+        }
+        h1{
+            color:white;
+            text-align:center;
+        }
+        #op{
+            text-align:center;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign up </h1>
+    <form id="op" action="post">
+        <div>
+            <label for="username"></label>
+            <input type="text" name ='Username' placeholder="Enter your Username" id="username">
+
+        </div>
+        <br>
+        <div>
+            <input type="radio" name ='Gender' value ="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name ='Gender' value ="Female" id="Female">
+            <label for="Female">FeMale</label>
+            <input type="radio" name ='Gender' value ="Other" id="Other">
+            <label for="Other">Other</label>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name ='subscrobe' value ="yes" id="subscribe">
+            <label for="subscribe">Subribe to Newsletter</label>
+            
+        </div>
+        <br>
+        <div>
+            <label for="comment">Write Your Feedback </label><br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        </div>
+   
+
+
+    </form>
+    
+</body>
+</html>
